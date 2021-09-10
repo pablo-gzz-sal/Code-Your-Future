@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://static.fontawesome.com/css/fontawesome-app.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Podcast</title>
+  </head>
+  <body>
+    <div class="nav_mobile">
+      <img class="logo_mobile" src="sources/logo.svg" alt="logo" />
+      <div class="menu_mobile">
+        <input id="checkbox" type="checkbox" />
+        <label for="checkbox">
+          <span class="linea_1"></span>
+          <span class="linea_2"></span>
+          <span class="linea_3"></span>
+        </label>
+        <div class="nav_ani">
+          <ul class="list_mobile" style="list-style: none;">
+            <li class="list_item_mobile"><a href="#episodios">EPISODIOS</a></li>
+            <li class="list_item_mobile"><a href="#nosotros">NOSOTROS</a></li>
+            <li class="list_item_mobile">
+              <a href="#entrevistas">ENTREVISTAS</a>
+            </li>
+            <li class="list_item_mobile"><a href="#topicos">TÓPICOS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <img class="logo" src="sources/logo.svg" alt="logo" />
+      <div class="menu_desktop">
+        <ul class="list">
+          <li class="list_item"><a href="#episodios">EPISODIOS</a></li>
+          <li class="list_item"><a href="#nosotros">NOSOTROS</a></li>
+          <li class="list_item"><a href="#entrevistas">ENTREVISTAS</a></li>
+          <li class="list_item"><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <h1 class="title">
+        Hello <span class="world">world</span> pale blue dot<span class="dot"
+          >.</span
+        >
+      </h1>
+      <p class="subtitulo">
+        Un podcast que explora el mundo de la programación. Nuevos episodios,
+        todos los jueves cada 15 días.
+      </p>
+      <button onclick="location.href='#nosotros'" type="button">
+        conocé más
+      </button>
+    </header>
+    <main>
+      <section class="episodios" id="episodios">
+        <div class="fondo_episodios"></div>
+        <h2>Episodios</h2>
+        <div class="podcasts">
+          <iframe
+            class="podcast_1"
+            src="https://open.spotify.com/embed/episode/7DLBCYnwHmVFT5HKQD0ny7"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="podcast_1"
+            src="https://open.spotify.com/embed/episode/1tylo8ERB4imqS6y7TuyTG"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="podcast_1"
+            src="https://open.spotify.com/embed/episode/1iLoyhHJljbaXC3WP8R2WP?theme=0"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            class="podcast_1"
+            src="https://open.spotify.com/embed/episode/4lq02iYeb3xCBsIKREDeZO"
+            width="100%"
+            height="232"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </section>
+      <section class="nosotros" id="nosotros">
+        <img class="celular" src="sources/phone.png" alt="phone" />
+        <div class="info_nosotros">
+          <h2>De dónde venimos</h2>
+          <p>
+            Our posturings, our imagined self-importance, the delusion that we
+            have some privileged position in the Universe, are challenged by
+            this point of pale light.
+          </p>
+          <p>
+            Our planet is a lonely speck in the great enveloping cosmic dark. In
+            our obscurity, in all this vastness, there is no hint that help will
+            come from elsewhere to save us from ourselves.
+          </p>
+        </div>
+      </section>
+      <section class="invitados" id="entrevistas">
+        <h2>Invitadas/os estelares</h2>
+        <div class="fotos_invitados">
+          <img src="sources/img1.png" alt="img1" />
+          <img src="sources/img2.png" alt="img2" />
+          <img src="sources/img3.png" alt="img3" />
+          <img src="sources/img4.png" alt="img4" />
+          <img src="sources/img5.png" alt="img5" />
+          <img src="sources/img6.png" alt="img6" />
+        </div>
+      </section>
+      <section class="temas" id="topicos">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="logos_temas">
+          <div>
+            <img src="sources/icon1.svg" alt="icon1" />
+            <h3>Trabajo remoto</h3>
+          </div>
+          <div>
+            <img src="sources/icon2.svg" alt="icon2" />
+            <h3>Repensando la programación</h3>
+          </div>
+          <div>
+            <img src="sources/icon3.svg" alt="icon3" />
+            <h3>Bases del código</h3>
+          </div>
+          <div>
+            <img src="sources/icon4.svg" alt="icon4" />
+            <h3>Seguridad informática</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="nov">
+        <div class="fondo_nov"></div>
+        <div class="cont_nov">
+          <h2>¿Quieres las últimas novedades?</h2>
+          <button
+            class="boton_nov"
+            onclick="location.href='#episodios'"
+            type="button"
+          >
+            Escuchá los episodios
+          </button>
+        </div>
+      </section>
+      <section class="final">
+        <p>© 2021— Hello pale blue dot</p>
+        <div class="redes">
+          <a
+            href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2"
+            target="_blank"
+          >
+            <i class="fab fa-spotify"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/front.endevelopment/"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/trabajofrontend" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/Front-End-576361916163262"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://telegramchannels.me/channels/fedevelopment"
+            target="_blank"
+          >
+            <i class="fab fa-telegram"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
